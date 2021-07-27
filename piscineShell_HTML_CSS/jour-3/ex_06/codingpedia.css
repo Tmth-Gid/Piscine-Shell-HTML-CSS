@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  flex-flow: row;
+  border: 3px solid;
+  padding: 5px;
+  justify-content: space-between;
+
+}
+
+h1 {
+  margin-right: auto;
+}
+
+nav {
+  display:flex;
+  border: 3px solid;
+  padding: 5px;
+  width: 20%;
+  justify-content: center;
+
+}
+
+li {
+  display:inline;
+  padding: 5px;
+  list-style-type: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.article1 {
+  border: 3px solid;
+
+}
+
+article {
+  border: 3px solid;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+aside {
+  border: 3px solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.div-form-article {
+  display: flex;
+  flex-direction: column;
+}
+
+address {
+  border: 3px solid;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.submit-button {
+  float: right;
+}
